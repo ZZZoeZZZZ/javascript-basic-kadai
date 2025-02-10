@@ -3,7 +3,7 @@ const today = new Date();
 
 // Dateオブジェクトから年、月、日をそれぞれ取得
 const year = today.getFullYear();
-const month = today.getMonth();
+const month = today.getMonth() + 1;
 const date = today.getDate();
 
 // 出力
